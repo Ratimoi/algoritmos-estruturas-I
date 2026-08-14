@@ -1,0 +1,23 @@
+# Binários compilados
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug
+*.pdb
+*.ilk
+
+# Editores / IDEs
+.vscode/
+*.suo
+*.user
+
+# Sistema
+Thumbs.db
+.DS_Store
