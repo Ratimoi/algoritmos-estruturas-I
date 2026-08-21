@@ -7,7 +7,7 @@ int main() {
     p = &i;
     q = &j;
 
-    *p = *q; // i=5 , j=5 , p=&j, q=&j
+    *p = *q; // i=5 , j=5 , p=&i, q=&j
     p = q; // i=5 , j=5 , p=&j, q=&j
     *p = *p + *q; // i=8 , j=5 , p=&i, q=&j
     q = &i; *q = 100; // i=3 , j=100 , p=&i, q=&i
