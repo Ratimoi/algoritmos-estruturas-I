@@ -102,7 +102,8 @@ void cadastrarProduto(Produto *produto)
 
 void exibirRelatorio(Produto *produto)
 {
-    if (produto == NULL) {
+    if (produto == NULL) 
+    {
         printf("Nao ha produtos cadastrados\n");
         return;
     }
